@@ -229,7 +229,7 @@ img {
    width: 160px;
    height: 160px;
    border-radius: 30% 70% 60% 40% / 38% 30% 70% 62%;
-   background: url("") no-repeat;
+   background: url("../img/perfil1.jpg") no-repeat;
    background-size: cover;
    background-position: top -11px center;
    background-blend-mode: multiply;
