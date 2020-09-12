@@ -395,6 +395,7 @@ img {
 
 .about__description {
    margin-bottom: var(--mb-4);
+   font-weight: 300;
 }
 
 .about__img {
@@ -522,6 +523,10 @@ img {
 .education__race {
    font-size: var(--h3-font-size);
    margin-bottom: 0.25rem;
+}
+
+.education__school {
+   font-size: var(--smaller-font-size);
 }
 
 .education__university,
@@ -673,7 +678,7 @@ img {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: rgba(204, 75, 44, 0.7);
+   background: rgba(117, 110, 108, 0.7);
    border-radius: 0.5rem;
    transition: 0.3s;
 }
@@ -815,6 +820,7 @@ img {
    }
    .about__description {
       margin-bottom: var(--mb-5);
+      text-align: left;
    }
    .about__img {
       width: 250px;
