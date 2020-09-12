@@ -226,8 +226,8 @@ img {
 .home__img {
    padding-top: 1.2rem;
    padding-left: 0.8rem;
-   width: 160px;
-   height: 160px;
+   width: 170px;
+   height: 170px;
    border-radius: 30% 70% 60% 40% / 38% 30% 70% 62%;
    background: url("/assets/img/perfil1.jpg") no-repeat;
    background-size: cover;
@@ -797,8 +797,8 @@ img {
       font-size: 1.2rem;
    }
    .home__img {
-      width: 250px;
-      height: 250px;
+      width: 260px;
+      height: 260px;
       background-position: top -18px center;
    }
    .home__button {
@@ -878,7 +878,7 @@ img {
    }
 
    .home__title {
-      font-size: 2.6rem;
+      font-size: 2.8rem;
       font-weight: var(--font-bold);
    }
 
