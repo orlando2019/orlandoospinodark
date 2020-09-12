@@ -224,10 +224,11 @@ img {
 }
 
 .home__img {
+   margin-top: -8rem;
    padding-top: 1.2rem;
    padding-left: 0.8rem;
-   width: 170px;
-   height: 170px;
+   width: 180px;
+   height: 180px;
    border-radius: 30% 70% 60% 40% / 38% 30% 70% 62%;
    background: url("/assets/img/perfil1.jpg") no-repeat;
    background-size: cover;
