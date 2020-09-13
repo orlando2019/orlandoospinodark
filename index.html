@@ -11,9 +11,15 @@
 
    <!-- === STYLES CSS=== -->
    <link rel="stylesheet" href="assets/css/styles.css" />
+   <link rel="stylesheet" href="assets/css/loading.css">
 </head>
 
-<body>
+<body class="hidden">
+   <!--===== LOANDING =====-->
+   <div class="centrado" id="loanding">
+      <div class="loader"> </div>
+   </div>
+
    <!--===== HEADER =====-->
    <header class="l-header">
       <nav class="nav bd-grid">
@@ -66,7 +72,7 @@
 
                   <div class="icon whatsapp">
                      <div class="tooltip"> Whatsapp </div>
-                     <a href="https://api.whatsapp.com/send?phone=573135021781&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                     <a href="https://api.whatsapp.com/send?phone=573135021781&amp;text=Hola!&nbsp;me&nbsp;puedes&nbsp;apoyar?"
                         target="_blanck">
                         <i class=" fab fa-whatsapp"></i>
                      </a>
@@ -522,8 +528,12 @@
 
    <!-- === FONTAWESOME=== -->
    <script src="https://kit.fontawesome.com/442aac5f42.js" crossorigin="anonymous"></script>
+   <!--===== jQuery =====-->
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
    <!--===== MAIN JS =====-->
    <script src="assets/js/main.js"></script>
+   <!--===== LOANDING JS =====-->
+   <script src="assets/js/loading.js"></script>
 </body>
 
 </html>

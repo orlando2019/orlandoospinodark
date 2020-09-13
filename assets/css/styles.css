@@ -18,7 +18,6 @@
    --first-color-light: #eae7e6;
    --first-color-lighten: #fffafa;
    --first-color-text: #e9e9e9;
-
    /*===== Font and typography =====*/
    --body-font: "Poppins", sans-serif;
    --h1-font-size: 1.8rem;
@@ -50,9 +49,7 @@
 
 /* ==== BASE ==== */
 
-*,
-::before,
-::after {
+*, ::before, ::after {
    box-sizing: border-box;
 }
 
@@ -71,10 +68,7 @@ body {
    line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
    margin: 0;
 }
 
@@ -458,8 +452,7 @@ img {
    grid-template-columns: 1fr max-content 1fr;
 }
 
-.education__year,
-.education__race {
+.education__year, .education__race {
    font-size: var(--h3-font-size);
    margin-bottom: 0.25rem;
 }
@@ -468,14 +461,12 @@ img {
    font-size: var(--smaller-font-size);
 }
 
-.education__university,
-.education__specialty {
+.education__university, .education__specialty {
    display: block;
    font-size: var(--small-font-size);
 }
 
-.education__year,
-.education__university {
+.education__year, .education__university {
    text-align: right;
 }
 
@@ -542,10 +533,7 @@ img {
    margin-bottom: var(--mb-1);
 }
 
-.references__container,
-.references__icon,
-.references__description,
-.references__title {
+.references__container, .references__icon, .references__description, .references__title {
    transition: 0.5s;
 }
 
@@ -581,8 +569,7 @@ img {
    text-align: center;
 }
 
-.project__title,
-.project__description {
+.project__title, .project__description {
    color: var(--first-color-lighten);
 }
 
@@ -735,27 +722,23 @@ img {
    .nav__logo {
       font-size: 1.2rem;
    }
-
    .section-title {
       font-size: var(--h1-font-size);
       color: var(--first-color-light);
       margin-bottom: var(--mb-3);
       text-align: center;
    }
-
    .home__img {
       margin-top: 1rem;
       width: 260px;
       height: 260px;
       background-position: top -18px center;
    }
-
    .home__social {
       display: inline-flex;
       margin-bottom: 1.7rem;
       margin-top: 0.7rem;
    }
-
    .home__social .icon {
       margin: 0 18px;
       text-align: center;
@@ -768,7 +751,6 @@ img {
       z-index: 2;
       transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-
    .home__social .icon a {
       display: block;
       height: 2.8rem;
@@ -781,12 +763,10 @@ img {
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-
    .home__social .icon a i {
       line-height: 2.7rem;
       font-size: 1.9rem;
    }
-
    .home__social .icon .tooltip {
       position: absolute;
       top: 0;
@@ -802,13 +782,11 @@ img {
       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
       transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-
    .home__social .icon:hover .tooltip {
       top: -53px;
       opacity: 1;
       pointer-events: auto;
    }
-
    .icon .tooltip::before {
       position: absolute;
       content: "";
@@ -820,51 +798,31 @@ img {
       transform: translateX(-50%) rotate(45deg);
       transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-
    .home__social .icon:hover a {
       color: var(--first-color-lighten);
    }
-
-   .home__social .icon:hover a,
-   .home__social .icon:hover .tooltip {
+   .home__social .icon:hover a, .home__social .icon:hover .tooltip {
       text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
    }
-
-   .home__social .linkedin:hover a,
-   .home__social .linkedin:hover .tooltip,
-   .home__social .linkedin:hover .tooltip::before {
+   .home__social .linkedin:hover a, .home__social .linkedin:hover .tooltip, .home__social .linkedin:hover .tooltip::before {
       background: #2867b2;
    }
-
-   .home__social .whatsapp:hover a,
-   .home__social .whatsapp:hover .tooltip,
-   .home__social .whatsapp:hover .tooltip::before {
+   .home__social .whatsapp:hover a, .home__social .whatsapp:hover .tooltip, .home__social .whatsapp:hover .tooltip::before {
       background: #25d366;
    }
-
-   .home__social .github:hover a,
-   .home__social .github:hover .tooltip,
-   .home__social .github:hover .tooltip::before {
+   .home__social .github:hover a, .home__social .github:hover .tooltip, .home__social .github:hover .tooltip::before {
       background: #24292e;
    }
-
-   .home__social .twitter:hover a,
-   .home__social .twitter:hover .tooltip,
-   .home__social .twitter:hover .tooltip::before {
+   .home__social .twitter:hover a, .home__social .twitter:hover .tooltip, .home__social .twitter:hover .tooltip::before {
       background: #1da1f2;
    }
-
    .home__button {
       width: initial;
    }
    .nav__menu {
       width: var(--nav-width);
    }
-   .about__container,
-   .skills__container,
-   .references__container,
-   .works__container,
-   .contact__container {
+   .about__container, .skills__container, .references__container, .works__container, .contact__container {
       grid-template-columns: repeat(2, 1fr);
    }
    .about__data {
@@ -895,8 +853,7 @@ img {
    .project__data {
       padding: 3rem 0;
    }
-   .project__title,
-   .project__data {
+   .project__title, .project__data {
       text-align: initial;
    }
    .project__img {
@@ -929,29 +886,23 @@ img {
       margin: 0;
       padding-left: var(--nav-width);
    }
-
    .home__title {
       font-size: 2.8rem;
       font-weight: var(--font-bold);
    }
-
    .home__profession {
       font-size: var(--h2-font-size);
       font-weight: var(--small-font-size);
    }
-
    .home__img {
       padding-top: 1.2rem;
       background-position: top -20px center;
       margin-bottom: var(--mb-2);
    }
-
    .l-header {
       width: 0;
    }
-   .nav__toggle,
-   .nav__logo,
-   .nav__close {
+   .nav__toggle, .nav__logo, .nav__close {
       display: none;
    }
    .nav__menu {
