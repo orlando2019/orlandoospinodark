@@ -218,7 +218,7 @@ img {
 }
 
 .home__img {
-   margin-top: -4rem;
+   margin-top: 1rem;
    padding-top: 1.2rem;
    padding-left: 0.8rem;
    width: 180px;
@@ -251,7 +251,7 @@ img {
 }
 
 .home__social .icon {
-   margin: 0 18px;
+   margin: -11px 10px;
    text-align: center;
    /* cursor: pointer; */
    display: flex;
