@@ -49,7 +49,9 @@
 
 /* ==== BASE ==== */
 
-*, ::before, ::after {
+*,
+::before,
+::after {
    box-sizing: border-box;
 }
 
@@ -68,7 +70,10 @@ body {
    line-height: 1.6;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
    margin: 0;
 }
 
@@ -253,7 +258,6 @@ img {
 .home__social .icon {
    margin: -11px 10px;
    text-align: center;
-   /* cursor: pointer; */
    display: flex;
    align-items: center;
    justify-content: center;
@@ -452,7 +456,8 @@ img {
    grid-template-columns: 1fr max-content 1fr;
 }
 
-.education__year, .education__race {
+.education__year,
+.education__race {
    font-size: var(--h3-font-size);
    margin-bottom: 0.25rem;
 }
@@ -461,12 +466,14 @@ img {
    font-size: var(--smaller-font-size);
 }
 
-.education__university, .education__specialty {
+.education__university,
+.education__specialty {
    display: block;
    font-size: var(--small-font-size);
 }
 
-.education__year, .education__university {
+.education__year,
+.education__university {
    text-align: right;
 }
 
@@ -533,7 +540,10 @@ img {
    margin-bottom: var(--mb-1);
 }
 
-.references__container, .references__icon, .references__description, .references__title {
+.references__container,
+.references__icon,
+.references__description,
+.references__title {
    transition: 0.5s;
 }
 
@@ -569,7 +579,8 @@ img {
    text-align: center;
 }
 
-.project__title, .project__description {
+.project__title,
+.project__description {
    color: var(--first-color-lighten);
 }
 
@@ -677,7 +688,7 @@ img {
 /* ===== FOOTER =====*/
 
 .footer {
-   background-color: var(--first-color-darken);
+   background-color: #39393960;
    color: var(--first-color-lighten);
    text-align: center;
 }
@@ -691,29 +702,9 @@ img {
    margin-bottom: var(--mb-2);
 }
 
-.footer__social {
-   margin-bottom: 3rem;
-}
-
-.footer__link {
-   display: inline-flex;
-   background-color: var(--first-color);
-   color: var(--first-color-lighten);
-   font-size: 1.5rem;
-   border-radius: 30% 70% 60% 40% / 38% 30% 70% 62%;
-   padding: 0.4rem;
-   margin: 0 var(--mb-1);
-   transition: 0.3s;
-}
-
-.footer__link:hover {
-   background-color: var(--first-color-lighten);
-   color: var(--first-color);
-}
-
 .footer__copy {
    font-size: var(--smaller-font-size);
-   color: var(--text-color);
+   color: #8b8888e7;
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -801,19 +792,28 @@ img {
    .home__social .icon:hover a {
       color: var(--first-color-lighten);
    }
-   .home__social .icon:hover a, .home__social .icon:hover .tooltip {
+   .home__social .icon:hover a,
+   .home__social .icon:hover .tooltip {
       text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
    }
-   .home__social .linkedin:hover a, .home__social .linkedin:hover .tooltip, .home__social .linkedin:hover .tooltip::before {
+   .home__social .linkedin:hover a,
+   .home__social .linkedin:hover .tooltip,
+   .home__social .linkedin:hover .tooltip::before {
       background: #2867b2;
    }
-   .home__social .whatsapp:hover a, .home__social .whatsapp:hover .tooltip, .home__social .whatsapp:hover .tooltip::before {
+   .home__social .whatsapp:hover a,
+   .home__social .whatsapp:hover .tooltip,
+   .home__social .whatsapp:hover .tooltip::before {
       background: #25d366;
    }
-   .home__social .github:hover a, .home__social .github:hover .tooltip, .home__social .github:hover .tooltip::before {
+   .home__social .github:hover a,
+   .home__social .github:hover .tooltip,
+   .home__social .github:hover .tooltip::before {
       background: #24292e;
    }
-   .home__social .twitter:hover a, .home__social .twitter:hover .tooltip, .home__social .twitter:hover .tooltip::before {
+   .home__social .twitter:hover a,
+   .home__social .twitter:hover .tooltip,
+   .home__social .twitter:hover .tooltip::before {
       background: #1da1f2;
    }
    .home__button {
@@ -822,7 +822,11 @@ img {
    .nav__menu {
       width: var(--nav-width);
    }
-   .about__container, .skills__container, .references__container, .works__container, .contact__container {
+   .about__container,
+   .skills__container,
+   .references__container,
+   .works__container,
+   .contact__container {
       grid-template-columns: repeat(2, 1fr);
    }
    .about__data {
@@ -853,7 +857,8 @@ img {
    .project__data {
       padding: 3rem 0;
    }
-   .project__title, .project__data {
+   .project__title,
+   .project__data {
       text-align: initial;
    }
    .project__img {
@@ -875,7 +880,6 @@ img {
       background: none;
    }
    .footer__container {
-      background-color: var(--first-color-darken);
       padding: 3rem 0;
       border-radius: 0.5rem;
    }
@@ -902,7 +906,9 @@ img {
    .l-header {
       width: 0;
    }
-   .nav__toggle, .nav__logo, .nav__close {
+   .nav__toggle,
+   .nav__logo,
+   .nav__close {
       display: none;
    }
    .nav__menu {

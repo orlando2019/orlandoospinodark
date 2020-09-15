@@ -7,7 +7,7 @@
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background-color: #000000
+   background-color: #000000;
 }
 
 .loader {
@@ -31,19 +31,19 @@
 }
 
 .loader:before {
-   content: '';
+   content: "";
    position: absolute;
-   top: .42rem;
-   left: .42rem;
-   right: .42rem;
-   bottom: .42rem;
+   top: 0.42rem;
+   left: 0.42rem;
+   right: 0.42rem;
+   bottom: 0.42rem;
    background-color: #000000;
    border-radius: 50%;
    z-index: 1000;
 }
 
 .loader:after {
-   content: '';
+   content: "";
    position: absolute;
    top: 0rem;
    left: 0rem;
