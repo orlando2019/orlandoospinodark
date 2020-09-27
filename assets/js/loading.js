@@ -1,4 +1,4 @@
 window.onload = () => {
-    $("#loanding").fadeOut();
-    $("body").removeClass("hidden");
+	$('#loanding').fadeOut();
+	$('body').removeClass('hidden');
 };
