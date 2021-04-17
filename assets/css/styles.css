@@ -24,11 +24,11 @@
    --h2-font-size: 1.25rem;
    --h3-font-size: 1rem;
    --normal-font-size: 0.938rem;
-   --small-font-size: 0.813rem;
+   --small-font-size: 0.999rem;
    --smaller-font-size: 0.75rem;
    /*===== Margenes =====*/
    --mb-1: 0.5rem;
-   --mb-2: 1rem;
+   --mb-2: 2rem;
    --mb-3: 1.5rem;
    --mb-4: 2rem;
    --mb-5: 2.5rem;
@@ -113,7 +113,7 @@ img {
 
 .section-subtitle {
    display: block;
-   font-size: var(--small-font-size);
+   font-size: 1.5rem;
    color: var(--first-color-lighten);
    text-align: center;
    font-weight: var(--font-bold);
@@ -380,8 +380,8 @@ img {
 }
 
 .skills__subtitle {
-   font-size: var(--h3-font-size);
-   color: var(--first-color-lighten);
+   font-size: var(--h2-font-size);
+   color: var(--first-color);
    margin-bottom: var(--mb-2);
 }
 
@@ -407,42 +407,6 @@ img {
 .skills-icon {
    font-size: 1.5rem;
    margin-left: 0.5rem;
-}
-
-.skills__html {
-   width: 60%;
-}
-
-.skills__js {
-   width: 40%;
-}
-
-.skills__angular {
-   width: 40%;
-}
-
-.skills__ts {
-   width: 30%;
-}
-
-.skills__git {
-   width: 70%;
-}
-
-.skills__node {
-   width: 60%;
-}
-
-.skills__firebase {
-   width: 40%;
-}
-
-.skills__py {
-   width: 45%;
-}
-
-.skills__php {
-   width: 30%;
 }
 
 /* ===== FORMATION =====*/
