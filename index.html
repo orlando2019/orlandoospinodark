@@ -39,12 +39,18 @@
             </div>
 
             <ul class="nav__list">
-               <li class="nav__item"> <a href="#home" class="nav__link active"> Inicio </a> </li>
-               <li class="nav__item"> <a href="#about" class="nav__link"> Sobre Mí </a> </li>
-               <li class="nav__item"> <a href="#skills" class="nav__link"> Habilidades </a> </li>
-               <li class="nav__item"> <a href="#education" class="nav__link"> Formación </a> </li>
-               <li class="nav__item"> <a href="#project" class="nav__link"> Algún Proyecto ? </a> </li>
-               <li class="nav__item"> <a href="#works" class="nav__link"> Portafolio </a> </li>
+               <li class="nav__item"> <a href="#home" class="nav__link active"><i
+                        class="fas fa-house-user menu__information-icon"></i> Inicio </a> </li>
+               <li class="nav__item"> <a href="#about" class="nav__link"> <i
+                        class="fas fa-address-card menu__information-icon"></i>Sobre Mí </a> </li>
+               <li class="nav__item"> <a href="#skills" class="nav__link"><i class="fas fa-cogs menu__information-icon"></i>
+                     Habilidades </a> </li>
+               <li class="nav__item"> <a href="#education" class="nav__link"><i
+                        class="fas fa-user-graduate menu__information-icon"></i> Formación </a> </li>
+               <li class="nav__item"> <a href="#project" class="nav__link"> <i
+                        class="fas fa-project-diagram menu__information-icon"></i> Algún Proyecto ? </a> </li>
+               <li class="nav__item"> <a href="#works" class="nav__link"><i class="fab fa-git-alt menu__information-icon"></i>
+                     Portafolio </a> </li>
             </ul>
 
          </div>
@@ -69,7 +75,13 @@
                         <i class="fab fa-linkedin-in"></i>
                      </a>
                   </div>
-
+                  <div class="icon whatsapp">
+                     <div class="tooltip"> Whatsapp </div>
+                     <a href="https://api.whatsapp.com/send?phone=+573135021781&text=¡¡Hola%20Soy%20Orlando%20Si%20Quieres%20Saber%20Mis%20Ideas%20Escríbeme!!"
+                        target="_blanck">
+                        <i class=" fab fa-whatsapp"></i>
+                     </a>
+                  </div>
                   <div class="icon github">
                      <div class="tooltip"> GitHub </div>
                      <a href="https://github.com/orlando2019" target="_blank">
@@ -84,6 +96,8 @@
                      </a>
                   </div>
                </div>
+               <a download="CV_Orlando" href="assets/document/CV_ORLAND_OSPINO_H.pdf" class="button home__button"> Descargá Mí CV
+               </a>
             </div>
          </div>
       </section>
@@ -117,6 +131,13 @@
                   <div class="about__information-data">
                      <i class="fas fa-user about__information-icon"></i>
                      <span> Orlando Manuel Ospino Hernández</span>
+                  </div>
+
+                  <div class="about__information-data">
+                     <a class="email"
+                        href="mailto:orlando1979@outlook.com?Subject=Interesado%20en%20contratarte%20o%20saber%20más%20de%20tí"><i
+                           class="fas fa-envelope about__information-icon"></i><span>
+                           Escríbeme</span></a>
                   </div>
 
                </div>
@@ -311,9 +332,12 @@
          <div class="project__container bd-grid">
             <div class="project__data">
                <h2 class="section-title project__title"> Tienes Un Proyecto En Mente! </h2>
-               <p class="project_description"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, eum
-                  inventore sed impedit autem optio?</p>
-               <a href="#contact" class="button button__light"> Contáctame </a>
+               <p class="project_description">
+                  “Para Lograr Grandes Cosas, No Sólo Debemos Actuar, Sino También Soñar; No Solo Planear, Sino También Creer”
+                  <br>Anatole France
+               </p>
+               <a href="https://api.whatsapp.com/send?phone=+573135021781&text=¡¡Hola%20Soy%20Orlando%20Si%20Quieres%20Saber%20Mis%20Ideas%20Escríbeme!!"
+                  target="_blanck" class="button button__light"> Contáctame </a>
             </div>
 
             <img src="assets/img/projectmind.png" alt="" class="project__img">
@@ -328,28 +352,35 @@
 
          <div class="works__container bd-grid">
             <div class="works__img">
-               <img src="assets/img/work1.jpg" alt="">
-
+               <img src="assets/img/work1.jpg" alt="Portafolio Tobias">
                <div class="works__data">
-                  <a href="#" class="works__link"> <i class="fas fa-link"></i> </a>
-                  <span class="works__title"> Trabajo 1</span>
+                  <a href="https://tobiasospino.tk/" target="_blank" class="works__link"> <i class="fas fa-link"></i> </a>
+                  <a href="https://github.com/orlando2019/portafolio-tobias" target="_blank" class="works__link">
+                     <i class="fab fa-git"></i>
+                  </a>
+                  <span class="works__title"> Portafolio</span>
                </div>
             </div>
 
             <div class="works__img">
                <img src="assets/img/work2.jpg" alt="">
-
                <div class="works__data">
                   <a href="#" class="works__link"> <i class="fas fa-link"></i> </a>
-                  <span class="works__title"> Trabajo 2</span>
+                  <a href="https://github.com/orlando2019/portafoliomotos" target="_blank" class="works__link">
+                     <i class="fab fa-git"></i>
+                  </a>
+                  <span class="works__title"> Portafolio De Motos </span>
                </div>
             </div>
+
             <div class="works__img">
                <img src="assets/img/work3.jpg" alt="">
-
                <div class="works__data">
                   <a href="#" class="works__link"> <i class="fas fa-link"></i> </a>
-                  <span class="works__title"> Trabajo 3 </span>
+                  <a href="https://github.com/orlando2019/miniApiRest" target="_blank" class="works__link">
+                     <i class="fab fa-git"></i>
+                  </a>
+                  <span class="works__title"> Mini Api-Rest </span>
                </div>
             </div>
             <div class="works__img">
@@ -386,8 +417,9 @@
    <footer class="footer section">
       <div class class="footer__container bd-grid">
          <h2 class="footer__title"> Orlando O. H.</h2>
-         <p class="footer__description"> Soy Orlando y Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
-            expedita.</p>
+         <p class="footer__description"> Soy Orlando Ingeniero De Sistemas, Especialista En Inteligencia Artificial Y Con 1 Año De
+            Experiencia En
+            Desarrollo Web Autodidacta.</p>
 
          <div class="home__social">
             <div class="icon linkedin">
@@ -396,7 +428,13 @@
                   <i class="fab fa-linkedin-in"></i>
                </a>
             </div>
-
+            <div class="icon whatsapp">
+               <div class="tooltip"> Whatsapp </div>
+               <a href="https://api.whatsapp.com/send?phone=+573135021781&text=¡¡Hola%20Soy%20Orlando%20Si%20Quieres%20Saber%20Mis%20Ideas%20Escríbeme!!"
+                  target="_blanck">
+                  <i class=" fab fa-whatsapp"></i>
+               </a>
+            </div>
             <div class="icon github">
                <div class="tooltip"> GitHub </div>
                <a href="https://github.com/orlando2019" target="_blank">

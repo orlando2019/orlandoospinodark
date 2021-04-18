@@ -24,11 +24,11 @@
    --h2-font-size: 1.25rem;
    --h3-font-size: 1rem;
    --normal-font-size: 0.938rem;
-   --small-font-size: 0.999rem;
+   --small-font-size: 0.813rem;
    --smaller-font-size: 0.75rem;
    /*===== Margenes =====*/
    --mb-1: 0.5rem;
-   --mb-2: 2rem;
+   --mb-2: 1rem;
    --mb-3: 1.5rem;
    --mb-4: 2rem;
    --mb-5: 2.5rem;
@@ -99,6 +99,9 @@ img {
 }
 
 /*===== CLASS CSS ===== */
+.email {
+   color: var(--first-color-lighten);
+}
 
 .section {
    padding: 4rem 0 2rem;
@@ -356,6 +359,11 @@ img {
    align-items: center;
    padding-left: 1.5rem;
    margin-bottom: var(--mb-3);
+}
+
+.menu__information-icon {
+   font-size: 1.2rem;
+   margin-right: var(--mb-1);
 }
 
 .about__information-icon {
@@ -677,6 +685,7 @@ img {
    .nav__logo {
       font-size: 1.2rem;
    }
+
    .section-title {
       font-size: var(--h1-font-size);
       color: var(--first-color-light);
